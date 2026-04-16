@@ -5,14 +5,14 @@ import type { ThemeConfig } from '~/types'
 
 export const defaultConfig: ThemeConfig = {
   site: {
-    title: '随笔',
-    subtitle: 'Neko',
-    author: 'Neko',
-    description: '八百里分麾下炙',
+    title: '活版印字',
+    subtitle: 'Typography',
+    author: 'Moeyua',
+    description: 'Rediscory the beauty of typography',
     website: 'https://astro-theme-typography.vercel.app/',
     pageSize: 5,
     socialLinks: [
-    /*  {
+      {
         name: 'github',
         href: 'https://github.com/moeyua/astro-theme-typography',
       },
@@ -27,7 +27,7 @@ export const defaultConfig: ThemeConfig = {
       {
         name: 'mastodon',
         href: 'https://github.com/moeyua/astro-theme-typography',
-      },*/
+      },
     ],
     navLinks: [
       {
@@ -47,7 +47,7 @@ export const defaultConfig: ThemeConfig = {
         href: '/about',
       },
     ],
-    categoryMap: [{ name: 'Neko', path: 'neko' }],
+    categoryMap: [{ name: '胡适', path: 'hu-shi' }],
     footer: [
       '© %year <a target="_blank" href="%website">%author</a>',
       'Theme <a target="_blank" href="https://github.com/Moeyua/astro-theme-typography">Typography</a> by <a target="_blank" href="https://moeyua.com">Moeyua</a>',
@@ -58,12 +58,12 @@ export const defaultConfig: ThemeConfig = {
     theme: 'system',
     locale: 'zh-cn',
     colorsLight: {
-      primary: '#1C2024',
-      background: '##FCFCFD',
+      primary: '#2e405b',
+      background: '#ffffff',
     },
     colorsDark: {
-      primary: '#EDEEF0',
-      background: '#111113',
+      primary: '#FFFFFF',
+      background: '#232222',
     },
     fonts: {
       header:
@@ -72,7 +72,7 @@ export const defaultConfig: ThemeConfig = {
     },
   },
   seo: {
-    twitter: '@cnekol',
+    twitter: '@moeyua13',
     meta: [],
     link: [],
   },
