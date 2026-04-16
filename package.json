@@ -2,10 +2,7 @@
   "name": "astro-theme-typography",
   "type": "module",
   "version": "0.1.0",
-  "packageManager": "pnpm@10.33.0",
-  "engines": {
-    "pnpm": "10.x"
-  },
+  "packageManager": "pnpm@9.14.4",
   "license": "MIT",
   "repository": "https://github.com/cnekol/astro-theme-typography",
   "scripts": {
