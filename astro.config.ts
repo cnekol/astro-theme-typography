@@ -1,11 +1,11 @@
 import mdx from '@astrojs/mdx'
 import sitemap from '@astrojs/sitemap'
 import swup from '@swup/astro'
+import UnoCSS from '@unocss/astro'
 import robotsTxt from 'astro-robots-txt'
 import { defineConfig } from 'astro/config'
 import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
-import UnoCSS from 'unocss/astro'
 import devtoolsJson from 'vite-plugin-devtools-json'
 import { themeConfig } from './src/.config'
 
